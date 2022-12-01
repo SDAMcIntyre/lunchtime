@@ -1,0 +1,10 @@
+Package: lunchtime
+Title: Tells you when lunch is
+Version: 0.1
+Authors@R: 
+    person("Sarah", "McIntyre", , "sarah.mcintyre@liu.se", role = c("aut", "cre"))
+Description: What time is lunch? This package has the answer. Except when it doesn't.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
