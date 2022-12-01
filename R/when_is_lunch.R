@@ -16,10 +16,10 @@ when_is_lunch <- function(location = "CSAN") {
   # determine lunch time based on location
   if (
     location %in% c(
-      "CSAN", 
-      "Sweden", 
-      "Linköping", 
-      "Östergötland"
+      "CSAN",
+      "Sweden",
+      "Link\u00f6ping",
+      "\u00d6sterg\u00f6tland"
       )
   ) {
     lunchtime <- "12:00"
