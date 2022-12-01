@@ -7,3 +7,10 @@
 install.packages("devtools")
 devtools::install_github("SDAMcIntyre/lunchtime")
 ```
+
+## Usage
+
+```R
+library(lunchtime")
+when_is_lunch()
+```
