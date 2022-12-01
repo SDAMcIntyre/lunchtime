@@ -4,6 +4,6 @@
 ## Installation 
 
 ```R
-# install.packages("devtools")
+install.packages("devtools")
 devtools::install_github("SDAMcIntyre/lunchtime")
 ```
