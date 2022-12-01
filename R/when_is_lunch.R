@@ -3,7 +3,7 @@
 #' In case you wanted to use R to figure out when everyone else will be eating lunch, you can use this function.
 #'
 #' @param location Specify the location for which you want to know when lunch will be.
-#' @return A string telling you when lunch time is. The function also prints this to the console. 
+#' @return A string telling you when lunch time is.
 #' @keywords lunch time location
 #' @export
 #' @examples
@@ -27,9 +27,8 @@ when_is_lunch <- function(location = "CSAN") {
   else {
     lunchtime <- "whenever you feel like it"
   }
-  
+
   # report lunch time
-  print(paste0("lunch time is ", lunchtime, "."))
-  return(lunchtime)
-  
+  lunchtime
+
 }
